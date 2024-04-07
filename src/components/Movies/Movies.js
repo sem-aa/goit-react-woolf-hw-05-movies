@@ -11,6 +11,7 @@ export const Movies = () => {
 
   useEffect(() => {
     const queryParam = searchParams.get('query');
+
     if (queryParam) {
       searchMovie(queryParam)
         .then(data => setMovies(data.results))

@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter  basename="https://sem-aa.github.io">
       <App />
     </BrowserRouter>
   </React.StrictMode>
