@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgoit_react_woolf_hw_05_movies=self.webpackChunkgoit_react_woolf_hw_05_movies||[]).push([[201],{201:function(e,o,t){t.r(o);var _=t(184);o.default=function(){return(0,_.jsx)("h2",{children:"Not Found"})}}}]);
-//# sourceMappingURL=201.f594dc1d.chunk.js.map
