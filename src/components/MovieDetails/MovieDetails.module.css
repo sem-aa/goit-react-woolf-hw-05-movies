@@ -1,0 +1,102 @@
+.movieContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.goBackLink {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.goBackLink:hover {
+  color: #ffcc00;
+}
+.imgContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.moviePoster {
+  max-width: 300px;
+  height: auto;
+}
+
+.movieTitle {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.userScore {
+  font-size: 24px;
+  color: #666;
+}
+
+.overviewSection {
+  margin-top: 20px;
+}
+
+.genresSection {
+  margin-top: 20px;
+}
+
+.genresList {
+  list-style: none;
+  padding: 0;
+}
+
+.genresItem {
+  margin-bottom: 5px;
+}
+
+.additionalInfoSection {
+  margin-top: 20px;
+}
+
+.additionalInfoList {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+/* movieDetailsStyles.module.css */
+
+.additionalInfoItem {
+  margin-bottom: 5px;
+  font-size: 24px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #333;
+  border: 2px solid #ffcc00;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.additionalInfoItem:hover {
+  background-color: #f2b700;
+  border-color: #f2b700;
+  color: #333;
+}
+
+.additionalInfoItem:active {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+  color: #333;
+}
+
+.additionalInfoLink {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.additionalInfoLink:hover {
+  color: #ffcc00;
+}

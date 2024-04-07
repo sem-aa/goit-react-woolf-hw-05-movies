@@ -1,0 +1,32 @@
+/* castStyles.module.css */
+
+.castList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.castItem {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.actorImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.actorName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.characterName {
+  color: #666;
+}
